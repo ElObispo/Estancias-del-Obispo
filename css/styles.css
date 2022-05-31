@@ -60,7 +60,7 @@ h2 {
     color: beige;
 }
 
-.Imagenesh {
+.imagenesh {
     width: 100%
 }
 
@@ -82,7 +82,7 @@ h2 {
     padding-right: 2%;
 }
 
-.Imagenescv {
+.imagenescv {
     grid-row: 2/3;
     width: 94%;
     height: 90%;
@@ -91,7 +91,7 @@ h2 {
 
 }
 *
-.Imagenesv {
+.imagenesv {
     grid-row: 2/3;
     width: 100%;
     position: relative;
@@ -99,7 +99,7 @@ h2 {
 
 }
 
-.Imagenes {
+.imagenes {
     grid-row: 2/3;
     width: 100%;
     margin-bottom: 5%6
@@ -360,7 +360,7 @@ footer {
         padding-right: 2%;
     }
 
-    .Imagenescv {
+    .imagenescv {
         grid-row: 2/3;
         width: 300px;
         position: relative;
@@ -368,7 +368,7 @@ footer {
 
     }
 
-    .Imagenesv {
+    .imagenesv {
         grid-row: 2/3;
         width: 300px;
         position: relative;
@@ -376,7 +376,7 @@ footer {
 
     }
 
-    .Imagenes {
+    .imagenes {
         grid-row: 2/3;
         width: 300px;
         position: relative;
@@ -391,10 +391,10 @@ footer {
         text-align: center;
     }
 
-    /*   .Imagenesh {
+    .imagenesh {
         margin: 0%;
         width: 100%
-    } */
+    }
 
 
 
