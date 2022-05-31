@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url(../Fuentes/Quicksand_Dash.otf);
+}
+
+@font-face {
+    font-family: 'quicksand2';
+    src: url(../Fuentes/Quicksand-Italic.otf);
+}
+
+h1 {
+    color: #297373;
+    background-color: #f6b02d74;
+    text-decoration: underline;
+    font-family: 'quicksand';
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+ul {
+    background-color: #a76d60;
+    list-style-type: none;
+    font-family: 'quicksand';
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+
+}
+
+ul .menuinicial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul a {
+    align-items: center;
+
+}
+
+h2 {
+    text-align: ce9nter;
+    background-color: #297373;
+    height: auto;
+    border-bottom: 1cm;
+    color: beige;
+}
+
+.Imagenesh {
+    width: 100%
+}
+
+.gridcontenedor {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60% 35% auto;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 10%;
+}
+
+.textomodificado {
+    grid-row: 1;
+    grid-column: 1/4;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Imagenescv {
+    grid-row: 2/3;
+    width: 94%;
+    height: 90%;
+    position: relative;
+    ;
+
+}
+*
+.Imagenesv {
+    grid-row: 2/3;
+    width: 100%;
+    position: relative;
+    ;
+
+}
+
+.Imagenes {
+    grid-row: 2/3;
+    width: 100%;
+    margin-bottom: 5%6
+    ;
+}
+
+.Cabalgatas {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    grid-row: 3;
+}
+
+.textomodificado {
+    font: size 200px;
+    ;
+    height: 10%;
+}
+
+/* 
+.Imagenes {padding: 0, 5%;
+        width: 32%;
+    } */
+
+
+/* .Imagenescv {
+        padding: 0, 5%;
+        width: 29%;
+    } */
+/* 
+.Imagenesv {
+        padding: 0, 5%;
+        width: 32%;
+    } */
+
+.textorojo {
+    color: blueviolet;
+}
+
+.Cabalgatas {
+    text-align: center;
+    font-size: 110%;
+    color: green;
+}
+
+.Hotelboutique {
+    text-align: center;
+    font-size: 110%;
+    text-decoration: none;
+    color: green;
+}
+
+.Trekking {
+    text-align: center;
+    font-size: 110%;
+    text-decoration: none;
+    color: green;
+}
+
+footer {
+    text-align: center;
+    display: inline;
+    margin: 0;
+
+}
+
+.textoprop {
+    padding-left: 1%;
+    font-size: 100%;
+}
+
+.iconosfooter a {
+    display: inline;
+    padding-right: 4%;
+    margin-bottom: 1 cm;
+
+}
+
+
+.iconosfooter a img {
+    width: 5%;
+    text-align: center;
+    display: inline;
+}
+
+.h2reservas {
+    font-family: 'quicksand';
+}
+
+.gridcontenedorII {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 300px;
+    justify-content: center;
+    gap: 0%;
+    padding-top: 3%;
+    column-gap: 2%;
+}
+
+
+.divimg {
+    margin-left: 0%;
+    width: 100%;
+    grid-column: 1/2;
+}
+
+.servicios {
+    width: 50%;
+    grid-column: 1/2;
+}
+
+
+.solicitar {
+    background-color: #CDC392;
+    font-family: 'quicksand';
+    font-weight: bold;
+    width: 75%;
+    grid-column: 2/3;
+
+}
+
+
+.casasr {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin-top: 2%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-content: stretch;
+}
+
+.casasrII {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin-top: 2%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-content: flex-end;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+
+
+    @font-face {
+        font-family: 'quicksand';
+        src: url(../Fuentes/Quicksand_Dash.otf);
+    }
+
+    @font-face {
+        font-family: 'quicksand2';
+        src: url(../Fuentes/Quicksand-Italic.otf);
+    }
+
+
+    h1 {
+        color: #297373;
+        background-color: #f6b02d74;
+        text-decoration: underline;
+        font-family: 'quicksand';
+        font-size: 700%;
+        text-align: center;
+        padding-bottom: 2%;
+        padding-top: 2%;
+
+    }
+
+    ul {
+        background-color: #a76d60;
+        list-style-type: none;
+        font-family: 'quicksand';
+        text-decoration: none;
+        padding: 1%;
+        color: white;
+        margin-bottom: 1%;
+        font-weight: bold;
+        font-size: 120%;
+
+    }
+
+    .menuinicial li {
+        display: inline;
+    }
+
+    .menuinicial li a {
+        padding: 1%;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 10%;
+    }
+
+    a {
+        list-style-type: none;
+    }
+
+    .menu2 {
+        background-color: #574268;
+    }
+    .servicios {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    
+    
+    .solicitar {
+        background-color: #CDC392;
+        font-family: 'quicksand';
+        font-weight: bold;
+        width: 75%;
+        grid-column: 2/3;
+    
+    }
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        color: beige;
+    }
+
+    p {
+        font-family: 'quicksand2';
+
+    }
+
+    .tituloblue {
+        color: beige;
+        font-family: 'quicksand'
+    }
+
+    main {
+        padding-left: 0%;
+        padding-bottom: 2%;
+    }
+
+    .gridcontenedor {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60% 35% auto;
+        justify-content: center;
+        gap: 2%;
+        margin-bottom: 10%;
+    }
+
+    .textomodificado {
+        grid-row: 1;
+        grid-column: 1/4;
+        text-align: justify;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .Imagenescv {
+        grid-row: 2/3;
+        width: 300px;
+        position: relative;
+        ;
+
+    }
+
+    .Imagenesv {
+        grid-row: 2/3;
+        width: 300px;
+        position: relative;
+        ;
+
+    }
+
+    .Imagenes {
+        grid-row: 2/3;
+        width: 300px;
+        position: relative;
+        ;
+    }
+
+    .Cabalgatas {
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+        grid-row: 3;
+        text-align: center;
+    }
+
+    /*   .Imagenesh {
+        margin: 0%;
+        width: 100%
+    } */
+
+
+
+    /* .Imagenes {
+        padding: 0, 5%;
+        width: 32%;
+    } */
+
+
+
+    /*  .Imagenescv {
+        padding: 0, 5%;
+        width: 29%;
+    }
+
+    .Imagenesv {
+        padding: 0, 5%;
+        width: 32%;
+    } */
+
+    .textomodificado {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: cursive;
+        text-align: justify;
+        margin: 1%;
+    }
+
+    .textorojo {
+        color: blueviolet;
+    }
+
+    .Cabalgatas {
+        text-align: center;
+        font-size: 120%;
+        color: green;
+
+        padding: 5%;
+        text-align: center;
+
+    }
+
+    .Hotelboutique {
+        padding: 5%;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .Trekking {
+        padding: 6%;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    footer {
+        text-align: center;
+        display: inline;
+        margin: 0;
+
+    }
+
+    .textoprop {
+        padding-left: 1%;
+        font-size: 200%;
+    }
+
+    .iconosfooter a {
+        display: inline;
+        padding-right: 2%;
+
+    }
+
+
+    .iconosfooter a img {
+        width: 3%;
+        text-align: center;
+        display: inline;
+
+
+    }
+    .gridcontenedorII {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30px 30px 300px;
+        justify-content: center;
+        gap: 2%;
+        padding-top: 3%;
+        column-gap: 2%;
+        justify-content: center;
+        margin-bottom: 20%;
+        
+    }
+    .planosp {
+        width: 75%;
+        padding-left: 10%;
+        margin: 1%;
+    }
+
+    .casasr {
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+        grid-row: 3;
+        margin-bottom: 5%;
+    }
+
+    .casasrII {
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+        grid-row: 3;
+        margin-bottom: 5%;
+    }
+
+    .solicitar {
+        background-color: #CDC392;
+        font-family: 'quicksand';
+        font-weight: bold;
+        width: 50%;
+        grid-row: 2/3;
+        grid-column: 1;
+        margin-left: 80%
+    }
+
+    .h2reservas {
+        font-family: 'quicksand';
+
+    }
+
+
+    .divimg {
+        margin-left: 5%;
+    }
+
+    .gerenciaq {
+        width: 100%;
+    }
+
+    .textoquienessomos {
+        padding: 1%;
+        text-align: justify;
+    }
+
+    .geolocalizacionc {
+        width: 66%;
+    }
+
+
+
+    select {
+        
+        background-color: aliceblue;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80%;
+        
+    }
+
+    option {
+        font-family: 'quicksand';
+        width: 300px;
+        background-color: aliceblue;
+    }
+
+    .formulario {
+        margin: 0 auto;
+        background-color: beige;
+        font-family: 'quicksand';
+        padding: 1%;
+        text-align: left;
+        width: 200px;
+
+    }
+
+    .formulariosep {
+        padding: 1%;
+    }
+
+    .boton {
+        width: 25%;
+        background-color: burlywood;
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .divboton {
+        padding-left: 0%;
+        padding-top: 3%;
+        font-family: 'quicksand';
+    }
+}
