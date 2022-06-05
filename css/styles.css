@@ -25,11 +25,14 @@ h1 {
     padding-top: 2%;
 }
 
-
-ul {
+.fondo-navegador{
+    background-color: lightblue;
+    font-size: 150%;
+}
+/* ul {
     background-color: #a76d60;
     list-style-type: none;
-    font-family: 'quicksand';
+    font-ufamily: 'quicksand';
     text-decoration: none;
     padding: 1%;
     color: white;
@@ -38,7 +41,7 @@ ul {
     font-size: 120%;
     text-align: center;
 
-}
+} */
 
 ul .menuinicial {
     display: flex;
@@ -211,14 +214,19 @@ footer {
     width: 50%;
     grid-column: 1/2;
 }
-
-
+select .form-select{
+    width: 120%;
+}
+.seleccion{
+    margin-bottom: 3%;
+}
 .solicitar {
     background-color: #CDC392;
     font-family: 'quicksand';
     font-weight: bold;
-    width: 75%;
-    grid-column: 2/3;
+    width: 50%;
+    margin-left: 3%;
+    /* grid-column: 2/3; */
 
 }
 

@@ -7,32 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/Hotel Boutique.jpg">
     <title>Estancia del Obispo</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
-    
+
 </head>
 
 <body>
     <header>
-      <h1 class="animate__animated animate__bounce">Estancias del Obispo</h1>
+        <h1 class="animate__animated animate__bounce">Estancias del Obispo</h1>
 
     </header>
-
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-light  bc-menu  fondo-navegador">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav w-100 justify-content-around">
+                    <a class="nav-link active" href="#">Inicio</a>
+                    <a class="nav-link active" href="./pages/propiedades.html">Propiedades</a>
+                    <a class="nav-link active" href="./pages/quienessomos.html">Quienes somos</a>
+                    <a class="nav-link active" href="./pages/reserva.html">Reservas</a>
+                    <a class="nav-link active" href="./pages/contactos.html">Contactos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--   <nav>
         <ul class="menuinicial">
+
             <li><a class="nav" href="#">Inicio</a></li>
             <li><a href="./pages/propiedades.html">Propiedades</a> </li>
             <li><a href="./pages/quienessomos.html">Quienes somos</a></li>
             <li><a href="./pages/reserva.html">Reservas</a></li>
             <li><a href="./pages/contactos.html">Contactos</a> </li>
         </ul>
-    </nav>
+    </nav> -->
     <main>
 
-        <h2 class="tituloblue subrayado animate__animated animate__fadeInRightBig">Viva en la Cuesta del Obispo Patrimonio Natural del Mundo</h2>
+        <h2 class="tituloblue subrayado animate__animated animate__fadeInRightBig">Viva en la Cuesta del Obispo
+            Patrimonio Natural del Mundo</h2>
         <img class=" imagenesh" src="./imagenes/Hotel Boutique.jpg" alt="Hotel Boutique">
         <div class="gridcontenedor">
             <p class="textomodificado"> Soñaste alguna vez vivir en el maximo confort rodeado de un entorno Natural de
@@ -40,25 +57,29 @@
                 inigualable y disfrutando de paseos y cabalgatas en familia en magnificos caballos criollos?. Que tal
                 hacerlo
                 en
-                un lugar que sea Patrimonio de la Humanidad? Podes hacerlo en <span class="textorojo"> Estancias del Obispo Club de Campo </span> Ubicado a solo 1
+                un lugar que sea Patrimonio de la Humanidad? Podes hacerlo en <span class="textorojo"> Estancias del
+                    Obispo Club de Campo </span> Ubicado a solo 1
                 hora de la ciudad de Salta en la famosa Cuesta del Obispo a 25000 mts s.n.m. Solo para elegidos. </p>
-            <!-- <section class="imgindex"> -->
-                <img class="Imagenescv" src="./imagenes/Cabalgata entre viñas.jpg" alt="Cabalgatas">
-                
-                <img class="Imagenesv" src="./imagenes/Viñedos.jpg" alt="Viñedos">
-                
-                <img class="Imagenes" src="./imagenes/Cuesta del Obispo.jpg" alt="Cuesta del Obispo">
-                
-            <!-- </section> -->
+            <div class="container-fluid">
+                <div class="row">
+                    <img class=" col Imagenescv" src="./imagenes/Cabalgata entre viñas.jpg" alt="Cabalgatas">
 
-            <!-- <div> -->
-                <a class="Cabalgatas" href="Cabalgatas">Cabalgatas</a>    
-                <a class="Hotelboutique" href="Hotel Boutique">Hotel Boutique</a>
-                <a class="Trekking" href="Trekking">Trekking</a>
-           <!--  </div> -->
+                    <img class="col Imagenesv" src="./imagenes/Viñedos.jpg" alt="Viñedos">
+
+                    <img class="col Imagenes" src="./imagenes/Cuesta del Obispo.jpg" alt="Cuesta del Obispo">
+
+                </div>
+                <div class="row">
+                    <a class="Cabalgatas" href="Cabalgatas">Cabalgatas</a>
+                    <a class="Hotelboutique" href="Hotel Boutique">Hotel Boutique</a>
+                    <a class="Trekking" href="Trekking">Trekking</a>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
-     <footer>
+
+    <footer>
         <ul class="iconosfooter">
             <a href="Facebook"><img src="./imagenes/facebook Icon.png" alt=""></a>
             <a href="Instagram"> <img src="./imagenes/instagram Icon.png" alt=""></a>
@@ -66,7 +87,9 @@
             <a href="You tube"> <img src="./imagenes/You tube Icon.png" alt=""></a>
         </ul>
     </footer>
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 
