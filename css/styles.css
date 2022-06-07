@@ -371,6 +371,10 @@ h5 p{
     font-size: 120%;
     color: black;
 }
+span .carousel-control-prev-icon{
+    padding-left: 50%;
+    
+}
 .carousel-indicators{
     padding-left: 40%;
     color: black;
