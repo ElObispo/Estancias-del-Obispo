@@ -28,13 +28,13 @@ h1 {
     @include fuentes (150%, normal);
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link.active {
     font-family: 'moonless';
     @include fuentes (150%, bold);
     color: map-get($colors, color-textos-titulos);
 }
 
-.navbar-light .navbar-nav .nav-link.active:hover {
+.navbar-dark .navbar-nav .nav-link.active:hover {
     color: map-get($colors, bc-titulo);
 }
 
@@ -200,6 +200,7 @@ ul .iconosfooter {
 .caja_seleccion {
     text-align: center;
     padding-left: 2%;
+    padding-top: 5%;
 }
 
 div {
@@ -234,6 +235,7 @@ div {
 
 select .form-select {
     width: 120%;
+    padding-top: 5%;
 }
 
 .seleccion {
@@ -248,14 +250,21 @@ select .form-select {
 .solicitar {
     background-color: map-get($colors, bc-titulo);
     font-family: 'moonless';
-    width: 50%;
+    width: 30%;
     margin-left: 0;
     color: map-get($colors, color-textos-titulos);
-    @include fuentes (140%, bold);
+    @include fuentes (140%, normal);
     margin-bottom: 5%;
     border-color: map-get($colors, bc-titulo);
     border-radius: 3px;
 
+}
+.caja{
+    width: 100%;
+    border: 1px solid #ced4da;
+    font-size: 120%;
+    border-radius: 5px;
+    height: 150px;
 }
 
 .formulario {
@@ -386,7 +395,7 @@ h5 {
 
     }
 
-    .navbar-light .navbar-nav .nav-link.active {
+    .navbar-dark .navbar-nav .nav-link.active {
         @include fuentes (140%, normal);
     }
 
@@ -406,11 +415,15 @@ h5 {
 
     .solicitar {
         background-color: #CDC392;
-        font-family: 'quicksand';
-        font-weight: bold;
-        width: 75%;
+        font-family: 'moonless';
+        font-weight: normal;
+        width: 30%;
         grid-column: 2/3;
 
+    }
+    .caja{
+        width: 82%;
+        height: 200px;
     }
 
     h2 {
@@ -602,11 +615,12 @@ h5 {
     .solicitar {
         background-color: map-get($colors, bc-titulo);
         font-family: 'moonless';
-        width: 50%;
+        width: 15%;
         grid-row: 2/3;
         grid-column: 1;
-        @include fuentes (200%, bold);
+        @include fuentes (200%, normal);
         color: map-get($colors, color-textos-titulos);
+        border-color:map-get($colors, bc-titulo) ;
 
     }
 

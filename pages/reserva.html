@@ -17,11 +17,11 @@
 <header>
     <h1 class="animate__animated animate__bounceIn">Estancias del Obispo</h1>
 </header>
-<nav class="navbar navbar-expand-lg navbar-light  bc-menu  fondo-navegador">
+<nav class="navbar navbar-expand-lg navbar-dark  bc-menu  fondo-navegador">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav w-100 justify-content-around">
@@ -36,7 +36,7 @@
 </nav>
 
 <body>
-    <h2 class="reservas animate__animated animate__flipInX">Reservas</h2>
+   
     <div class="container reservas">
 
         <div class=" form-floating caja_seleccion ">
@@ -49,9 +49,13 @@
             </select>
             <label for="floatingSelect"></label>
         </div>
+        <!-- Aquí insertar un calendario para que el usuario puede seleccionar las fechas de la reserva-->
+        <div>
+            <img src="../imagenes/calendario-2-300x300.png" alt="">
+        </div>
 
         <div class="">
-            <input class="col solicitar" type="submit" value="solicitar">
+            <input class="col solicitar btn_contacto" type="submit" value="solicitar">
         </div>
         <div class="img_reservas container-fluid">
             <div class="row">

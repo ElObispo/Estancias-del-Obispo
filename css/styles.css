@@ -23,13 +23,13 @@ h1 {
   font-size: 150%;
   font-weight: normal; }
 
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link.active {
   font-family: 'moonless';
   font-size: 150%;
   font-weight: bold;
   color: white; }
 
-.navbar-light .navbar-nav .nav-link.active:hover {
+.navbar-dark .navbar-nav .nav-link.active:hover {
   color: #bc6c25; }
 
 h2 {
@@ -167,7 +167,8 @@ ul .iconosfooter {
 
 .caja_seleccion {
   text-align: center;
-  padding-left: 2%; }
+  padding-left: 2%;
+  padding-top: 5%; }
 
 div select {
   margin-left: 24%; }
@@ -193,7 +194,8 @@ div select {
   padding-bottom: 5%; }
 
 select .form-select {
-  width: 120%; }
+  width: 120%;
+  padding-top: 5%; }
 
 .seleccion {
   margin-bottom: 3%; }
@@ -204,14 +206,21 @@ select .form-select {
 .solicitar {
   background-color: #bc6c25;
   font-family: 'moonless';
-  width: 50%;
+  width: 30%;
   margin-left: 0;
   color: white;
   font-size: 140%;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 5%;
   border-color: #bc6c25;
   border-radius: 3px; }
+
+.caja {
+  width: 100%;
+  border: 1px solid #ced4da;
+  font-size: 120%;
+  border-radius: 5px;
+  height: 150px; }
 
 .formulario {
   margin: 0 auto;
@@ -316,7 +325,7 @@ h5 p {
     margin-bottom: 1%;
     font-size: 120%;
     font-weight: bold; }
-  .navbar-light .navbar-nav .nav-link.active {
+  .navbar-dark .navbar-nav .nav-link.active {
     font-size: 140%;
     font-weight: normal; }
   a {
@@ -328,10 +337,13 @@ h5 p {
     grid-column: 1/2; }
   .solicitar {
     background-color: #CDC392;
-    font-family: 'quicksand';
-    font-weight: bold;
-    width: 75%;
+    font-family: 'moonless';
+    font-weight: normal;
+    width: 30%;
     grid-column: 2/3; }
+  .caja {
+    width: 82%;
+    height: 200px; }
   h2 {
     text-align: center;
     font-size: 40px;
@@ -450,12 +462,13 @@ h5 p {
   .solicitar {
     background-color: #bc6c25;
     font-family: 'moonless';
-    width: 50%;
+    width: 15%;
     grid-row: 2/3;
     grid-column: 1;
     font-size: 200%;
-    font-weight: bold;
-    color: white; }
+    font-weight: normal;
+    color: white;
+    border-color: #bc6c25; }
   .h2reservas {
     font-family: 'moonless'; }
   .divimg {
