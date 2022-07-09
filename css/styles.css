@@ -25,7 +25,7 @@ h1 {
 
 .navbar-dark .navbar-nav .nav-link.active {
   font-family: 'moonless';
-  font-size: 150%;
+  font-size: 130%;
   font-weight: bold;
   color: white; }
 
@@ -63,13 +63,12 @@ p .textomodificado {
   grid-row: 1;
   grid-column: 1/4;
   text-align: justify;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-family: 'moonless';
-  padding-left: 1%;
-  padding-right: 1%;
   font-size: 170%;
-  font-weight: normal; }
+  font-weight: normal;
+  padding-top: 5%; }
 
 .imagenescv {
   width: 94%;
@@ -92,12 +91,14 @@ p .textomodificado {
   grid-row: 3; }
 
 .textomodificado {
-  font-size: 200px;
+  font-size: 170%;
   font-weight: normal;
   height: 10%; }
 
 .textorojo {
-  color: blueviolet; }
+  color: #bc6c25;
+  background: #FFFFFF;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; }
 
 .Cabalgatas {
   text-align: center;
@@ -120,7 +121,11 @@ p .textomodificado {
   font-family: 'moonless';
   text-decoration: none;
   font-size: 130%;
-  font-weight: bold; }
+  font-weight: bold;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F; }
+
+.texto_carruse {
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F; }
 
 footer {
   text-align: center;
@@ -140,8 +145,10 @@ footer {
   font-size: 150%;
   font-weight: normal;
   text-align: justify;
-  padding-left: 1%;
-  padding-right: 1%; }
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 8%;
+  padding-bottom: 5%; }
 
 .iconosfooter a {
   display: inline;
@@ -200,6 +207,9 @@ select .form-select {
 .seleccion {
   margin-bottom: 3%; }
 
+.gerenciaq {
+  padding-bottom: 10%; }
+
 .reservas {
   text-align: center; }
 
@@ -252,7 +262,7 @@ select .form-select {
   grid-column: 2/3;
   justify-content: flex-end; }
 
-.img_reservas {
+.carrusel_reservas {
   padding-bottom: 5%; }
 
 .col-form-label {
@@ -280,7 +290,8 @@ select .form-select {
 h5 {
   font-size: 250%;
   font-weight: bold;
-  color: black; }
+  color: black;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white; }
 
 h5 p {
   font-family: 'moonless'; }
@@ -288,20 +299,33 @@ h5 p {
 .img_qs {
   text-align: center; }
 
+.btn_contacto {
+  width: 30%;
+  font-size: 200%; }
+
+.calendario {
+  font-family: 'moonless';
+  font-size: 140%;
+  padding-bottom: 5%; }
+
+.boton-centrado {
+  padding-left: 30%; }
+
 @media screen and (min-width: 768px) {
   .texto_carrusel {
     font-family: 'moonless';
-    font-size: 120%;
+    font-size: 130%;
     font-weight: normal;
-    color: black; }
-  span .carousel-control-prev-icon {
-    padding-left: 50%; }
+    color: black;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white; }
   .carousel-indicators {
     padding-left: 40%;
     color: black; }
   .carousel {
-    width: 1000px;
-    padding-left: 30%; }
+    width: 1000px; }
+  .carousel-centrado {
+    text-align: center;
+    margin-left: 30%; }
   h1 {
     color: white;
     background-color: #bc6c25;
@@ -342,7 +366,7 @@ h5 p {
     width: 30%;
     grid-column: 2/3; }
   .caja {
-    width: 82%;
+    width: 98%;
     height: 200px; }
   h2 {
     text-align: center;
@@ -363,8 +387,10 @@ h5 p {
     margin-bottom: 10%; }
   .textomodificado {
     text-align: justify;
-    padding-left: 1%;
-    padding-right: 1%; }
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%; }
   .imagenescv {
     grid-row: 2/3;
     width: 300px;
@@ -397,11 +423,12 @@ h5 p {
     width: 32%; }
   .textomodificado {
     font-size: 180%;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'moonless';
     text-align: justify; }
   .textorojo {
-    color: blueviolet; }
+    color: #bc6c25;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; }
   .Cabalgatas {
     text-align: center;
     font-size: 120%;
@@ -427,6 +454,14 @@ h5 p {
     padding-left: 1%;
     font-size: 200%;
     font-weight: normal; }
+  .carrusel_reservas {
+    padding-bottom: 5%;
+    width: 100%; }
+  .carousel-fade {
+    width: 100%;
+    margin: 0; }
+  .carousel-inner {
+    width: 100%; }
   .iconosfooter a {
     display: inline;
     padding-right: 2%; }
@@ -479,7 +514,10 @@ h5 p {
   .img_qs {
     text-align: center; }
   .textoquienessomos {
-    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 5%;
     text-align: justify;
     font-size: 190%;
     font-weight: normal; }
@@ -502,13 +540,19 @@ h5 p {
     padding: 1%;
     text-align: left;
     width: 350px;
-    padding-top: 2%; }
+    padding-top: 2%;
+    margin-top: 2%; }
+  .boton-centrado {
+    padding-left: 30%; }
+  .btn_contactos {
+    width: 60%;
+    font-size: 200%; }
   .consultas {
     padding-left: 28%; }
   .col-xl-2 {
     width: 100%; }
   .form-control {
-    width: 100%; }
+    width: 120%; }
   .formulariosep {
     padding: 1%; }
   .boton {

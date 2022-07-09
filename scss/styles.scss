@@ -14,10 +14,10 @@
 
 h1 {
     color: map-get($colors, color-textos-titulos);
-    background-color: map-get($colors, bc-titulo );
+    background-color: map-get($colors, bc-titulo);
     text-decoration: underline;
     font-family: 'moonless';
-    @include fuentes (200%,normal);
+    @include fuentes (200%, normal);
     text-align: center;
     padding-bottom: 2%;
     padding-top: 2%;
@@ -30,7 +30,7 @@ h1 {
 
 .navbar-dark .navbar-nav .nav-link.active {
     font-family: 'moonless';
-    @include fuentes (150%, bold);
+    @include fuentes (130%, bold);
     color: map-get($colors, color-textos-titulos);
 }
 
@@ -40,7 +40,7 @@ h1 {
 
 h2 {
     text-align: ce9nter;
-    background-color: map-get($colors, bc-subtitulos );
+    background-color: map-get($colors, bc-subtitulos);
     height: auto;
     color: map-get($colors, color-textos-titulos);
     font-family: 'moonless';
@@ -73,12 +73,12 @@ p .textomodificado {
     grid-row: 1;
     grid-column: 1/4;
     text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'moonless';
-    padding-left: 1%;
-    padding-right: 1%;
+
     @include fuentes (170%, normal);
+    padding-top: 5%;
 }
 
 .imagenescv {
@@ -110,12 +110,14 @@ p .textomodificado {
 }
 
 .textomodificado {
-    @include fuentes (200px, normal);
+    @include fuentes (170%, normal);
     height: 10%;
 }
 
 .textorojo {
-    color: blueviolet;
+    color: #bc6c25;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
 .Cabalgatas {
@@ -139,6 +141,13 @@ p .textomodificado {
     font-family: 'moonless';
     text-decoration: none;
     @include fuentes (130%, bold);
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+.texto_carruse {
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
 }
 
 footer {
@@ -159,8 +168,10 @@ footer {
     font-family: 'moonless';
     @include fuentes (150%, normal);
     text-align: justify;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    padding-bottom: 5%;
 }
 
 .iconosfooter {
@@ -242,6 +253,9 @@ select .form-select {
     margin-bottom: 3%;
 
 }
+.gerenciaq{
+    padding-bottom: 10%;
+}
 
 .reservas {
     text-align: center;
@@ -259,7 +273,8 @@ select .form-select {
     border-radius: 3px;
 
 }
-.caja{
+
+.caja {
     width: 100%;
     border: 1px solid #ced4da;
     font-size: 120%;
@@ -301,7 +316,7 @@ select .form-select {
     justify-content: flex-end;
 }
 
-.img_reservas {
+.carrusel_reservas {
     padding-bottom: 5%;
 }
 
@@ -321,7 +336,7 @@ select .form-select {
 .consultas {
     font-family: 'moonless';
     @include fuentes (120%, normal);
-   
+
 }
 
 .carousel-item {
@@ -332,6 +347,8 @@ select .form-select {
 h5 {
     @include fuentes (250%, bold);
     color: black;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white,
+        0 0 0.2em white;
 }
 
 h5 {
@@ -339,23 +356,38 @@ h5 {
         font-family: 'moonless';
     }
 }
-.img_qs{
+
+.img_qs {
     text-align: center;
 }
-.btn_contacto{
-@extend .btn-info
+
+.btn_contacto {
+    @extend .btn-info;
+    width: 30%;
+    font-size: 200%;
+    
 }
+
+.calendario {
+    font-family: 'moonless';
+    font-size: 140%;
+    padding-bottom: 5%;
+}
+.boton-centrado{
+    padding-left: 30%;
+   }
 @media screen and (min-width:768px) {
     .texto_carrusel {
         font-family: 'moonless';
-        @include fuentes (120%, normal);
+        @include fuentes (130%, normal);
         color: black;
-    }
-
-    span .carousel-control-prev-icon {
-        padding-left: 50%;
+        text-shadow: 0 0 0.2em white, 0 0 0.2em white,
+            0 0 0.2em white;
 
     }
+
+
+
 
     .carousel-indicators {
         padding-left: 40%;
@@ -364,7 +396,12 @@ h5 {
 
     .carousel {
         width: 1000px;
-        padding-left: 30%;
+
+    }
+
+    .carousel-centrado {
+        text-align: center;
+        margin-left: 30%;
     }
 
     h1 {
@@ -421,15 +458,16 @@ h5 {
         grid-column: 2/3;
 
     }
-    .caja{
-        width: 82%;
+
+    .caja {
+        width: 98%;
         height: 200px;
     }
 
     h2 {
         text-align: center;
         @include fuentes (40px, normal);
-        
+
     }
 
     p {
@@ -455,8 +493,10 @@ h5 {
     .textomodificado {
 
         text-align: justify;
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 
     .imagenescv {
@@ -510,14 +550,15 @@ h5 {
 
     .textomodificado {
 
-        @include fuentes (180%, bold);
+        @include fuentes (180%, normal);
         font-family: 'moonless';
         text-align: justify;
 
     }
 
     .textorojo {
-        color: blueviolet;
+        color: #bc6c25;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
     }
 
     .Cabalgatas {
@@ -539,7 +580,7 @@ h5 {
         padding: 6%;
         text-align: center;
         @include fuentes (120%, normal);
-        
+
     }
 
     footer {
@@ -552,7 +593,22 @@ h5 {
     .textoprop {
         padding-left: 1%;
         @include fuentes (200%, normal);
-        
+
+    }
+
+    .carrusel_reservas {
+        padding-bottom: 5%;
+        width: 100%;
+
+    }
+
+    .carousel-fade {
+        width: 100%;
+        margin: 0;
+    }
+
+    .carousel-inner {
+        width: 100%;
     }
 
     .iconosfooter {
@@ -575,7 +631,7 @@ h5 {
 
     .form-floating>.form-select {
         @include fuentes (150%, normal);
-      
+
     }
 
     .planosp {
@@ -620,7 +676,7 @@ h5 {
         grid-column: 1;
         @include fuentes (200%, normal);
         color: map-get($colors, color-textos-titulos);
-        border-color:map-get($colors, bc-titulo) ;
+        border-color: map-get($colors, bc-titulo);
 
     }
 
@@ -644,10 +700,13 @@ h5 {
     }
 
     .textoquienessomos {
-        padding: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 4%;
+        padding-bottom: 5%;
         text-align: justify;
         @include fuentes (190%, normal);
-        
+
     }
 
     .geolocalizacionc {
@@ -678,9 +737,17 @@ h5 {
         text-align: left;
         width: 350px;
         padding-top: 2%;
+        margin-top: 2%;
 
     }
-
+   .boton-centrado{
+    padding-left: 30%;
+   }
+   .btn_contactos {
+    width: 60%;
+    font-size: 200%;
+    
+}
     .consultas {
         padding-left: 28%;
     }
@@ -690,7 +757,7 @@ h5 {
     }
 
     .form-control {
-        width: 100%;
+        width: 120%;
     }
 
     .formulariosep {
